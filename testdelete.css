@@ -6,7 +6,13 @@ body{
 	font-family: "Segoe UI"; /* "Comic Sans MS", "Trebuchet MS", (Courier new-best for chat) */
 	font-weight: ;
 	font-size: 15px;
-
+	background-color: #DDA0DD;
+	/*background-image: url(" images/da148067c.jpg"); */
+	background-color: white;
+	background-position: ;
+	background-repeat:  repeat-x;*
+	background-size: contain;
+	background-attachment: fixed;
 }
 
 .footer{
@@ -18,6 +24,12 @@ body{
 	font-family: monospace;
 }
 
+.tag{
+	border-style: outset !important;
+	border-width: thin !important;
+	border-radius: 4px 4px 4px 4px;
+
+}
 
 
 
@@ -26,8 +38,7 @@ body{
 
 /* ------------------------------------------------------------------------*/
 	/*<---	Nav links  ----->*/
-		.link_header_section a{
-
+		.link_header_section a {
 			color: black;
 			text-decoration: none;
 			font-style: none;
@@ -38,17 +49,22 @@ body{
 			border-width: thin;
 			padding: ;
 			padding-right:;
-			background-color: darkgrey !important;
+			background-color: darkgrey;
 			font-size: 15.5px;
-													}
+		}
 
-		.link_header_section a:hover{
-
-			background-color: grey !important;
+		.link_header_section a:hover {
+			background-color: grey ;
 			color: lightblue;
-								}
-		.link_header_section a:focus{
-			color: pink !important;
+		}
+
+		.link_header_section a:active {
+			background-color: black #AFEEEE !important;
+		}
+
+		.link_header_section a:focus {
+			background-color: grey ;
+			color: lightblue;
 		}
 
 		.link_header_section a { -webkit-transition: color .3s ease-out; }
@@ -59,26 +75,31 @@ body{
 
 .content_box a:link{
 	background-color: lightgrey;
-	padding: 1.2px;
+	padding: 1.1px;
 	text-decoration: none;
+	border-radius: 2px;
+	text-indent: 22px;
 
 }
 
 .content_box a:visited{
 	background-color: none;
+	border-radius: 2px;
 }
 .content_box a:hover{
 	background-color: orange;
 	border-style: solid;
 	border-width:thin;
 	border-color: #FF8C00;
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-left: 1.2px;
+	padding-right: 1.2px;
 	text-decoration: none;
+	border-radius: 2px;
 }
 
 .content_box a:active{
 	background-color: pink;
+	border-radius: 2px;
 }
 
 .content_box a:focus{
@@ -88,6 +109,7 @@ body{
 	border-color: grey;
 	padding: 1.2px;
 	text-decoration: none;
+	border-radius: 2px;
 }
 
 .content_box a { -webkit-transition: color .4s ease-out; }
@@ -97,7 +119,7 @@ body{
 
 
 /*--------------------------------------------------------------------------*/
-/* link head section */
+/* link head section GRID TEMPLATE */
 
 .link_header_section{
 	display: grid;
@@ -120,6 +142,7 @@ body{
 
 
 	.logo{
+		visibility: collapse;
 		grid-area: logo;
 		grid-column: 2/5;
 		grid-row: 1/2;
@@ -153,6 +176,12 @@ body{
 
 		min-height: 20px;
 		max-height: 30px;
+		border-radius: 18px 18px 18px 18px;
+		border-style: none;
+		text-indent: 5px;
+		font-family: ;
+		background-color: lightgrey;
+		border-style: none;
 	}
 
 	#page_search:focus{
@@ -168,7 +197,7 @@ body{
 		margin-right: 1px;
 		margin-left: 2px;
 		padding: 7px;
-
+		border-radius: 8px 0px 0px 8px;
 	}
 
 	.bio{
@@ -219,8 +248,9 @@ body{
 		margin-top: 4px;
 		margin-right: 4px;
 		padding: 7px;
+		border-radius: 0px 8px 8px 0px;
 	}
-/* Link head section */
+/* Link head section GRID TEMPLATE*/
 			/*============= Cross-page nav bar standard template ends here! */
 /*--------------------------------------------------------------------------*/
 
@@ -238,17 +268,19 @@ body{
 	font-size: 17px;
 
 	background-image: url("bg.png") !important;
-    background-color: #C0C0C0;
+    background-color: ;
 	background-repeat: repeat;
     animation: animatedBackground 40s linear infinite;
 	min-width: 630px;
 	overflow: visible;
+	border-radius: 5px;
+	padding: 11px;
 						}
 
-@keyframes animatedBackground {
+/*@keyframes animatedBackground {
 	        from { background-position: 0 0; }
 	        to { background-position: 100% 100%; }
-        }
+        } */
 
 										/*Fin. cross page content box styling */
 /*--------------------------------------------------------------------------*/
@@ -287,7 +319,7 @@ body{
 		padding: 12px;
 		margin-top: 1px;
 		border-color: lightblue;
-		margin-left: ;
+		margin-left:;
 
 							}
 
@@ -303,7 +335,9 @@ body{
 		margin-top: 1px;
 		border-color: lightblue;
 		margin-right: 0%;
-		
+		margin-left: ;
+
+
 							}
 								/* Fin. Content box styling from help page */
 /*-------------------------------------------------------------------------*/
@@ -372,7 +406,7 @@ body{
 		"content_homepage "
 		"aside_homepage";
 	/*grid-gap: 1px;*/
-	min-width: 610px;
+
 
 }
 
@@ -386,6 +420,8 @@ body{
 		padding: 12px;
 		margin-top: 1px;
 		border-color: lightblue;*/
+		background-color: grey !important;
+		
 
 							}
 
@@ -400,12 +436,10 @@ body{
 		border-width:thin;
 		margin-top: 1px;
 		border-color: lightblue;
+
 							}
 
 
-	.content_homepage_main{
-		background-image:url("bg.png")
-	}
 
 
 								/* Fin. Content box styling from home page */
