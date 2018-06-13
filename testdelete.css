@@ -6,13 +6,16 @@ body{
 	font-family: "Segoe UI"; /* "Comic Sans MS", "Trebuchet MS", (Courier new-best for chat) */
 	font-weight: ;
 	font-size: 15px;
-	background-color: #DDA0DD;
-	/*background-image: url(" images/da148067c.jpg"); */
-	background-color: white;
+	/*background-color: #DDA0DD;*/
+	/*background-image: url(" images/1513507845002.jpg");*/
+	background-color: ;
 	background-position: ;
-	background-repeat:  repeat-x;*
+	background-repeat:  no-repeat;*
+	background-position: right;
 	background-size: contain;
 	background-attachment: fixed;
+
+
 }
 
 .footer{
@@ -56,6 +59,7 @@ body{
 		.link_header_section a:hover {
 			background-color: grey ;
 			color: lightblue;
+			text-decoration: underline !important;
 		}
 
 		.link_header_section a:active {
@@ -119,7 +123,7 @@ body{
 
 
 /*--------------------------------------------------------------------------*/
-/* link head section GRID TEMPLATE */
+/* All-page link head section GRID TEMPLATE */
 
 .link_header_section{
 	display: grid;
@@ -267,13 +271,11 @@ body{
 	border-color: ;
 	font-size: 17px;
 
-	background-image: url("bg.png") !important;
-    background-color: ;
-	background-repeat: repeat;
-    animation: animatedBackground 40s linear infinite;
+	/*background-repeat: repeat;*/
+    /*animation: animatedBackground 40s linear infinite;*/
 	min-width: 630px;
 	overflow: visible;
-	border-radius: 5px;
+	border-style: none;
 	padding: 11px;
 						}
 
@@ -348,50 +350,6 @@ body{
 
 
 
-/*-----------------------------------------------------------------------*/
-		/* Subscribe form from help page */
-
-/*		#subscribe_help_form{
-			display: grid;
-			display: subgrid;
-			grid-template-columns:1fr 1fr;
-			grid-template-rows: 1fr 1fr 1fr;
-			grid-template-areas:
-				"name name"
-				"email email"
-				". sub_button"
-				;
-
-
-		}
-
-		.name{
-			grid-area:name;
-			grid-column:1/3;
-			grid-row:1/2;
-
-		}
-
-		.Email{
-			grid-area:email;
-			grid-column:1/3;
-			grid-row:2/3;
-
-		}
-
-		.subscribe_button{
-			grid-area:sub_button;
-			grid-column:2/3;
-			grid-row:3/4;
-
-		}
-*/
-/* Subscribe form from help page ends here! */
-
-
-/* content box styling from help page ends here! -- */
-/*----------------------------------------------------------------------*/
-
 
 
 /*--------------------------------------------------------------------------*/
@@ -420,8 +378,8 @@ body{
 		padding: 12px;
 		margin-top: 1px;
 		border-color: lightblue;*/
-		background-color: grey !important;
-		
+
+
 
 							}
 
@@ -435,7 +393,7 @@ body{
 		border-style: solid;
 		border-width:thin;
 		margin-top: 1px;
-		border-color: lightblue;
+		/*border-color: lightblue;*/
 
 							}
 
