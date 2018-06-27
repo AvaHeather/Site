@@ -1,19 +1,19 @@
-
+/* ============ Start!    Body , Footer , site_author styles    ===============*/
 body{
-	min-width: 98%;
+	min-width: ;
 	overflow: scroll;
-	min-width: 700px;
+	min-width: 0px;
 	font-family: "Segoe UI"; /* "Comic Sans MS", "Trebuchet MS", (Courier new-best for chat) */
 	font-weight: ;
 	font-size: 15px;
 	/*background-color: #DDA0DD;*/
 	/*background-image: url(" images/1513507845002.jpg");*/
-	background-color: ;
+	background-color: white;
 	background-position: ;
 	background-repeat:  no-repeat;*
 	background-position: right;
 	background-size: contain;
-	background-attachment: fixed;
+	background-attachment: absolute fixed;
 
 
 }
@@ -27,35 +27,191 @@ body{
 	font-family: monospace;
 }
 
-.tag{
-	border-style: outset !important;
-	border-width: thin !important;
-	border-radius: 4px 4px 4px 4px;
+/* ============ End!    Body , Footer , site_author styles    ===============*/
+
+
+
+
+
+
+
+
+
+/* Cross-page nav bar standard styling starts here! ========================*/
+/* ------------------------------------------------------------------------*/
+	/*<---	Nav-bar links & page title styles ----->*/
+
+
+/* # Start!	 -----PAGE TITLE & SEARCH BOX------- #  */
+	.main_page_title{
+		margin-left: 0px;
+		background-color:;
+	/*  margin-right: auto;*/
+		text-align:center;
+		padding: 0px;
+		text-shadow: 0.1em 0.1em 0.2em lightblue,  1px 1px pink;
+		font-size:;
+		float: left;
+		height: 0px;
+		top: 0px;
+		margin-top: 0px;
+		color: lightblue;
+	}
+
+	#page_search{
+		float: right;
+		font-size: 13px;
+		margin-top: px;
+		margin-bottom:0px;
+		padding: 5px;
+		min-height: px;
+		max-height: px;
+		border-radius: 3px;
+		border-style: none;
+		text-indent: 1px;
+		font-family: ;
+		background-color: white;
+		color: ;
+		border-style: none;
+		margin-right: 7px;
+		margin-top: 2.5px;
+	}
+
+	#page_search:focus{
+		background-color: lightgrey /*#F0FFFF*/;
+		color:  !important;
+		font-size: ;
+		width: 185px;
+
+	}
+/* End!  --- #  ----PAGE TITLE & SEARCH BOX ------- #  */
+
+
+
+/*-------------------------------------------*/
+
+
+
+
+/* Start! ---# 	-----NAV-BAR LINKS	-------- */
+ul
+	{
+		margin: 0px;
+		padding-left: 100px;
+	}
+
+
+ul li a
+		{
+			text-decoration: :none;
+			display:block;
+			text-decoration: none !important;
+			color: black;
+		}
+
+
+ul li
+		{
+			text-decoration: none !important;
+			background-color:lightgrey;
+			min-width: 155px;
+
+			line-height:30px;
+			float:left;
+			border:;
+			text-align:center;
+			font-size:18px;
+			opacity:25;
+			position:center;
+			border-radius: ;
+			margin: 1px;
+			display:;
+			list-style-type: none;
+		}
+
+ul li ul{
+	padding-left: 0px;
+	border-radius: 9px;
+	background-color: lightgrey !important;
+	list-style-position: inside;
+	width: 60px;
+		}
+
+ul li a:hover
+			{
+				background-color:  #9FAFDF;
+			  	border-radius: 5px;
+				color: white;
+
+
+		 	}
+
+ul li a:focus
+			{
+				background-color: lightblue;
+			  	border-radius: 4px;
+				color: white;
+		 	}
+
+ul li ul li
+			{
+				display: none;
+				background-color: #DCDCDC;
+				margin-right: 1px;
+
+			}
+
+ul li ul li a:hover{
+	background-color: #9FAFDF;
+	border-radius: 9px;
 
 }
 
+ul li:hover ul li
+				{
+					display: block;
+				}
 
 
+#nav_title_bar{
+	position: fixed;
+	background-color: brown;
+	height: 90px;
+	border-radius: 8px 8px 2px 2px ;
+	padding-left: 7px;
+	top: 2px;
+	left: 4px;
+	right: 4px;
+	z-index: 5000;
 
-/* Cross-page nav bar standard template starts here! ========================*/
+}
 
-/* ------------------------------------------------------------------------*/
-	/*<---	Nav links  ----->*/
-		.link_header_section a {
-			color: black;
-			text-decoration: none;
-			font-style: none;
-			font-family: tempus sans itc regular !important;
-			font-weight: 600;
-			border-style: none;
-			border-color: grey;
-			border-width: thin;
-			padding: ;
-			padding-right:;
-			background-color: darkgrey;
-			font-size: 15.5px;
-		}
+#link_header_section{
 
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+.home{ border-radius: 13px 0px 0px 13px;}
+
+.home_link:hover{
+	 border-radius: 13px 0px 0px 13px;
+}
+
+.bio{}
+
+.myjourney{}
+
+.helptopics{}
+
+.resources{}
+
+.socials{ border-radius: 0px 13px 13px 0px; }
+
+.socials_link:hover{
+	border-radius: 0px 13px 13px 0px;
+}
+/*
 		.link_header_section a:hover {
 			background-color: grey ;
 			color: lightblue;
@@ -71,198 +227,31 @@ body{
 			color: lightblue;
 		}
 
-		.link_header_section a { -webkit-transition: color .3s ease-out; }
-													/*<---Fin. Nav links -->*/
-/*--------------------------------------------------------------------------*/
+		.link_header_section a { -webkit-transition: color .3s ease-out; } */
 
-/* content_box links */
 
-.content_box a:link{
-	background-color: lightgrey;
-	padding: 1.1px;
-	text-decoration: none;
-	border-radius: 2px;
-	text-indent: 22px;
-
-}
-
-.content_box a:visited{
-	background-color: none;
-	border-radius: 2px;
-}
-.content_box a:hover{
-	background-color: orange;
-	border-style: solid;
-	border-width:thin;
-	border-color: #FF8C00;
-	padding-left: 1.2px;
-	padding-right: 1.2px;
-	text-decoration: none;
-	border-radius: 2px;
-}
-
-.content_box a:active{
-	background-color: pink;
-	border-radius: 2px;
-}
-
-.content_box a:focus{
-	background-color: orange;
-	border-style: solid;
-	border-width: thin;
-	border-color: grey;
-	padding: 1.2px;
-	text-decoration: none;
-	border-radius: 2px;
-}
-
-.content_box a { -webkit-transition: color .4s ease-out; }
-/* Fin. content_box links */
+/*	END! ---# NAV-BAR LINKS --- */
 
 
 
-
-/*--------------------------------------------------------------------------*/
-/* All-page link head section GRID TEMPLATE */
-
-.link_header_section{
-	display: grid;
-	display: subgrid;
-	-ms-grid-columns: 1fr 1fr 1fr 1fr;
-	grid-template-columns: 16.7% 16.7% 16.7% 16.7% 16.7% 16.7%  ;
-	-ms-grid-rows: 1fr 1fr;
-	grid-template-rows: 12% 12%  ;
-    grid-template-areas:
-        "main . . . . search"
-        "home bio myjourney helptopics resources socials";
-	min-width: 630px;
-	min-width: 100%;
-	margin-right: 57%;
-	background-color: none !important;
-	margin-top: 0px;
-
-
-}
-
-
-	.logo{
-		visibility: collapse;
-		grid-area: logo;
-		grid-column: 2/5;
-		grid-row: 1/2;
-		border-style: none;
-		border-width: thin;
-		margin-top: 3px;
-		margin-left: 7px;
-		min-width: 337px;
-
-	}
-
-	.main_page_title{
-		grid-area: main;
-		grid-column: 1/2;
-		grid-row: 1/2;
-		background-color: none;
-	/*  margin-right: auto;*/
-		text-align:center;
-		padding: 2px;
-		text-shadow: 0.1em 0.1em 0.2em lightblue,  1px 1px pink;
-		font-size: 29px;
-	}
-
-	#page_search{
-		grid-area: search;
-		grid-column: 6/7;
-		grid-row: 1/2;
-
-		margin-top: 37px;
-		margin-bottom: 23px;
-
-		min-height: 20px;
-		max-height: 30px;
-		border-radius: 18px 18px 18px 18px;
-		border-style: none;
-		text-indent: 5px;
-		font-family: ;
-		background-color: lightgrey;
-		border-style: none;
-	}
-
-	#page_search:focus{
-		background-color: #F0FFFF;
-	}
-
-	.home{
-		grid-area: home;
-		grid-column: 1/2;
-		grid-row: 2/3;
-	/*  background-color: orange;*/
-		margin-top: 4px;
-		margin-right: 1px;
-		margin-left: 2px;
-		padding: 7px;
-		border-radius: 8px 0px 0px 8px;
-	}
-
-	.bio{
-		grid-area: bio;
-		grid-column: 2/3;
-		grid-row: 2/3;
-	/*	background-color: lightblue;*/
-		margin-top: 4px;
-		margin-right: 1px;
-		padding: 7px;
-	}
-
-	.myjourney{
-		grid-area: myjourney;
-		grid-column: 3/4;
-		grid-row: 2/3;
-	/*  background-color: pink;*/
-		margin-top: 4px;
-		margin-right: 1px;
-		padding: 7px;
-	}
-
-	.helptopics{
-		grid-area: helptopics;
-		grid-column: 4/5;
-		grid-row: 2/3;
-	/*  background-color: khaki;*/
-		margin-top: 4px;
-		margin-right: 1px;
-		padding: 7px;
-	}
-
-	.resources{
-		grid-area: resources;
-		grid-column: 5/6;
-		grid-row: 2/3;
-	/*  background-color: turquoise;*/
-		margin-top: 4px;
-		margin-right: 1px;
-		padding: 7px;
-	}
-
-	.socials{
-		grid-area: socials;
-		grid-column: 6/7;
-		grid-row: 2/3;
-	/*  background-color: red;*/
-		margin-top: 4px;
-		margin-right: 4px;
-		padding: 7px;
-		border-radius: 0px 8px 8px 0px;
-	}
-/* Link head section GRID TEMPLATE*/
-			/*============= Cross-page nav bar standard template ends here! */
+/* Cross-page nav bar standard styling Ends here! ========================*/
 /*--------------------------------------------------------------------------*/
 
 
 
 
+
+
+
+
+
+
 /*--------------------------------------------------------------------------*/
-/* cross page content box styling */
+/* START!    All-site cross page content box styling */
+/*-----------------------------------------*/
+
+
+				/* ----- Content box div styles --------*/
 .content_box{
 
 	background-color: /*#DCDCDC*/;
@@ -270,7 +259,6 @@ body{
 	border-width: thin;
 	border-color: ;
 	font-size: 17px;
-
 	/*background-repeat: repeat;*/
     /*animation: animatedBackground 40s linear infinite;*/
 	min-width: 630px;
@@ -284,7 +272,70 @@ body{
 	        to { background-position: 100% 100%; }
         } */
 
-										/*Fin. cross page content box styling */
+
+
+			/*Fin. ---- cross page content box styling ---*/
+/*--------------------------------------------------------*/
+
+
+
+
+
+
+/*--------------------------------------------------------*/
+/*--------- SITE content links (content_box) ---------*/
+
+.content_box a:link{
+	background-color: lightgrey;
+	padding: 1.1px;
+	text-decoration: none;
+	border-radius: 2px;
+	text-indent: 22px;
+
+							}
+
+
+.content_box a:visited{
+	background-color: none;
+	border-radius: 2px;
+							}
+
+
+.content_box a:hover{
+	background-color: orange;
+	border-style: solid;
+	border-width:thin;
+	border-color: #FF8C00;
+	padding-left: 0.5px;
+	padding-right: 1.2px;
+	text-decoration: none;
+	border-radius: 2px;
+							}
+
+
+.content_box a:active{
+	background-color: pink;
+	border-radius: 2px;
+							}
+
+
+.content_box a:focus{
+	background-color: orange;
+	border-style: solid;
+	border-width: thin;
+	border-color: grey;
+	padding: 1.2px;
+	text-decoration: none;
+	border-radius: 2px;
+							}
+
+
+.content_box a { -webkit-transition: color .4s ease-out; }
+/* ---------------------Fin. content links ------------------*/
+
+
+/*-----------------------------------------*/
+/* END!   All-site cross page content box styling */
 /*--------------------------------------------------------------------------*/
 
 
@@ -292,8 +343,15 @@ body{
 
 
 
+
+
+
+
+
+			/*####  START!	  CSS GRID STYLES  ####*/
 /*--------------------------------------------------------------------------*/
-/* Content box styling from help page */
+/* Content boX styling for help page CSS GRID */
+/*--------------------------------------------*/
 .help_content_box{
 
 /*	background-color: #DCDCDC;
@@ -309,8 +367,9 @@ body{
 		"form_help";
 	grid-gap: 3px;
 	min-width: 610px;
+	clear: both;
+						}
 
-}
 
 	.content_help_main{
 		grid-area:content_help;
@@ -341,19 +400,16 @@ body{
 
 
 							}
-								/* Fin. Content box styling from help page */
-/*-------------------------------------------------------------------------*/
+/* Fin. Content box styling for help page  CSS GRID */
+/*-------------------------------------------*/
 
 
 
 
 
-
-
-
-
-/*--------------------------------------------------------------------------*/
+/*-------------------------------------------*/
 /* Content box styling from home page */
+/*------------------------------------*/
 .homepage_content_box{
 
 	display: grid;
@@ -379,9 +435,7 @@ body{
 		margin-top: 1px;
 		border-color: lightblue;*/
 
-
-
-							}
+									}
 
 
 
@@ -395,10 +449,37 @@ body{
 		margin-top: 1px;
 		/*border-color: lightblue;*/
 
-							}
+									}
 
 
 
 
 								/* Fin. Content box styling from home page */
 /*-------------------------------------------------------------------------*/
+						/*#### END!	  CSS GRID STYLES  ####*/
+
+
+
+#photo{
+	position: relative;
+
+}
+
+
+.circle_motion1{
+	top: -10px;
+left: 30px;
+background-color: #FF6;
+}
+
+.circle_motion2{
+	top: -30px;
+left: -20px;
+background-color: #6CF;
+}
+
+.circle_motion3{
+	top: -50px;
+left: -50px;
+background-color: #7FFF00;
+}
